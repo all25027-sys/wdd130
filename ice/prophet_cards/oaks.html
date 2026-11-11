@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dallin H. Oaks</title>
+    <style>
+        /* Insert styles here, this is called an internal stylesheet  */
+        body {
+            display: grid;
+            grid-template-columns: 1fr 1fr 1fr 1fr;
+            grid-template-rows: 150px 1fr 1fr 1fr;
+            gap: 10px;
+            width: 100%;
+            height: 100%;
+            background: #FFECD7;
+        }
+        #card {
+            grid-column: 2/4;
+            grid-row: 1/4;
+            width: 500px;
+            height:1000px;
+            border-radius: 15px;
+            border-style: solid;
+            border-width: 5px;
+            background-color: #008DB1;
+            border-color: #004E63;
+            margin: 0 auto;
+        }
+        img {
+            display: block;
+            margin: 0 auto;
+            grid-column: 2/4;
+            grid-row: 2/4;
+            z-index: 10;
+            border-style: solid;
+            border-color: white;
+            border-width: 5px;
+        }
+        #name {
+            grid-column: 2/4;
+            grid-row: 1/2;
+            text-align: center;
+            margin-top: 40px;
+            font-family: Arial, Helvetica, sans-serif;
+            color: #FFFFFE;
+            font-size: 50px;
+        }
+        #list {
+            grid-column: 2/4;
+            grid-row: 3/4;
+            text-align: center;
+            margin-top: 0px;
+            font-family: Arial, Helvetica, sans-serif;
+            color: #FFFFFE;
+            font-size: 25px;
+        }
+    </style>
+</head>
+<body>
+    <img id= "image"src="images/oaks.webp">
+    <div id="card"></div>
+    <div id="name"> Dallin H. Oaks</div>
+    <div id="list">
+        <ul>
+            <li>Born: Aug 12, 1932</li>
+            <li>Apostle: Apr 7, 1984</li>
+            <li>Prophet: Oct 14, 2025</li>
+        </ul>
+    </div>
+
+</body>
+</html>

@@ -1,0 +1,38 @@
+/* CSS SYNTAX */
+
+/*element selector */
+body {
+    background-color:cornsilk
+}
+h1 {
+    color:darkblue;
+    margin-left: 100px;
+    margin-top: 0px;
+    padding: 0;
+}
+
+p {
+    color:darkblue;
+}
+
+#secondhead {
+    color: red;
+    margin-left: 10px;
+    margin-top: 30px;
+}
+
+.subtext {
+    color:green;
+    font-size: 30px;
+}
+
+div p {
+    color:purple;
+    text-align: center;
+}
+
+div p span{
+    display:block;
+    font-weight: bolder;
+    font-size: 25px;
+}
